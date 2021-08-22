@@ -17,7 +17,6 @@ def testPunctuation():
     assert longestPal("Dammit I'm mad.") != "dammitimmad."
     #assert longestPal("Dang!") == False
 
-
 def testWhiteSpace():
     assert longestPal("w ow") == "wow"
 
